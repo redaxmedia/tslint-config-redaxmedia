@@ -1,0 +1,30 @@
+{
+	"name": "tslint-config-redaxmedia",
+	"description": "Yet another TypeScript coding standard",
+	"version": "1.0.0",
+	"license": "GPL-3.0",
+	"keywords":
+	[
+		"typescript",
+		"coding",
+		"standard"
+	],
+	"author":
+	{
+		"name": "Henry Ruhs",
+		"url": "https://redaxmedia.com"
+	},
+	"bugs":
+	{
+		"url": "https://github.com/redaxmedia/tslint-config-redaxmedia/issues"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/redaxmedia/tslint-config-redaxmedia.git"
+	},
+	"dependencies":
+	{
+		"tslint-eslint-rules": "5.4.0"
+	}
+}

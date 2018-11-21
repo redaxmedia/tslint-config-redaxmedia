@@ -1,0 +1,38 @@
+{
+	"extends":
+	[
+		"tslint-eslint-rules"
+	],
+	"rules":
+	{
+		"brace-style":
+		[
+			true,
+			"allman"
+		],
+		"indent":
+		[
+			true,
+			"tabs"
+		],
+		"typedef-whitespace":
+		[
+			true,
+			{
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "onespace",
+				"variable-declaration": "onespace"
+			},
+			{
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "onespace",
+				"variable-declaration": "onespace"
+			}
+		],
+		"ordered-imports": true
+	}
+}
