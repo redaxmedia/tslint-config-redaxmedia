@@ -18,7 +18,7 @@ npm install tslint-config-redaxmedia
 Usage
 -----
 
-Refer the coding standard inside your `.tslintrc` file:
+Refer the coding standard inside your `tslint.json` file:
 
 ```json
 {
