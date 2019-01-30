@@ -1,23 +1,35 @@
 {
 	"extends":
 	[
+		"tslint:recommended",
 		"tslint-eslint-rules"
 	],
 	"rules":
 	{
+		"arrow-parens":
+		{
+			"severity": "off"
+		},
+		"one-line":
+		{
+			"severity": "off"
+		},
 		"brace-style":
-		[
-			true,
-			"allman"
-		],
+		{
+			"options":
+			[
+				"allman"
+			]
+		},
 		"indent":
-		[
-			true,
-			"tabs"
-		],
+		{
+			"options":
+			[
+				"tabs"
+			]
+		},
 		"typedef-whitespace":
 		[
-			true,
 			{
 				"call-signature": "onespace",
 				"index-signature": "onespace",
@@ -33,6 +45,19 @@
 				"variable-declaration": "onespace"
 			}
 		],
-		"ordered-imports": true
+		"quotemark":
+		{
+			"options":
+			[
+				"single"
+			]
+		},
+		"interface-name":
+		{
+			"options":
+			[
+				"never-prefix"
+			]
+		}
 	}
 }
