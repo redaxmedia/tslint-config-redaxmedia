@@ -58,6 +58,16 @@
 			[
 				"never-prefix"
 			]
+		},
+		"trailing-comma":
+		{
+			"options":
+			[
+				{
+					"multiline": "never",
+					"singleline": "never"
+				}
+			]
 		}
 	}
 }
