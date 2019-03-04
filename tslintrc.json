@@ -10,10 +10,6 @@
 		{
 			"severity": "off"
 		},
-		"one-line":
-		{
-			"severity": "off"
-		},
 		"brace-style":
 		{
 			"options":
@@ -26,6 +22,60 @@
 			"options":
 			[
 				"tabs"
+			]
+		},
+		"interface-name":
+		{
+			"options":
+			[
+				"never-prefix"
+			]
+		},
+		"file-name-casing":
+		{
+			"options":
+			[
+				"kebab-case"
+			]
+		},
+		"member-ordering":
+		{
+			"options":
+			{
+				"order": "instance-sandwich"
+			}
+		},
+		"no-var-keyword":
+		{
+			"severity": "error"
+		},
+		"no-consecutive-blank-lines":
+		{
+			"severity": "error"
+		},
+		"one-line":
+		{
+			"severity": "off"
+		},
+		"quotemark":
+		{
+			"options":
+			[
+				"single"
+			]
+		},
+		"ter-newline-after-var":
+		{
+			"severity": "error"
+		},
+		"trailing-comma":
+		{
+			"options":
+			[
+				{
+					"multiline": "never",
+					"singleline": "never"
+				}
 			]
 		},
 		"typedef-whitespace":
@@ -44,30 +94,6 @@
 				"property-declaration": "onespace",
 				"variable-declaration": "onespace"
 			}
-		],
-		"quotemark":
-		{
-			"options":
-			[
-				"single"
-			]
-		},
-		"interface-name":
-		{
-			"options":
-			[
-				"never-prefix"
-			]
-		},
-		"trailing-comma":
-		{
-			"options":
-			[
-				{
-					"multiline": "never",
-					"singleline": "never"
-				}
-			]
-		}
+		]
 	}
 }
