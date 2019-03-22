@@ -78,6 +78,17 @@
 				}
 			]
 		},
+		"typedef":
+		{
+			"options":
+			[
+				"call-signature",
+				"member-variable-declaration",
+				"parameter",
+				"property-declaration",
+				"variable-declaration"
+			]
+		},
 		"typedef-whitespace":
 		[
 			{
