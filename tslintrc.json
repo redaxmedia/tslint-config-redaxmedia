@@ -90,22 +90,25 @@
 			]
 		},
 		"typedef-whitespace":
-		[
-			{
-				"call-signature": "onespace",
-				"index-signature": "onespace",
-				"parameter": "onespace",
-				"property-declaration": "onespace",
-				"variable-declaration": "onespace"
-			},
-			{
-				"call-signature": "onespace",
-				"index-signature": "onespace",
-				"parameter": "onespace",
-				"property-declaration": "onespace",
-				"variable-declaration": "onespace"
-			}
-		],
+		{
+			"options":
+			[
+				{
+					"call-signature": "onespace",
+					"index-signature": "onespace",
+					"parameter": "onespace",
+					"property-declaration": "onespace",
+					"variable-declaration": "onespace"
+				},
+				{
+					"call-signature": "onespace",
+					"index-signature": "onespace",
+					"parameter": "onespace",
+					"property-declaration": "onespace",
+					"variable-declaration": "onespace"
+				}
+			]
+		},
 		"whitespace":
 		{
 			"options":
