@@ -17,6 +17,14 @@
 				"allman"
 			]
 		},
+		"completed-docs":
+		{
+			"options":
+			[
+				"functions",
+				"methods"
+			]
+		},
 		"indent":
 		{
 			"options":
